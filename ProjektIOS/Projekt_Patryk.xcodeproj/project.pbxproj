@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F24CD12C1B060C0007636C /* Projekt_PatrykApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CD02C1B060C0007636C /* Projekt_PatrykApp.swift */; };
+		50F24CD32C1B060C0007636C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CD22C1B060C0007636C /* ContentView.swift */; };
+		50F24CD52C1B060E0007636C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F24CD42C1B060E0007636C /* Assets.xcassets */; };
+		50F24CD82C1B060E0007636C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F24CD72C1B060E0007636C /* Preview Assets.xcassets */; };
+		50F24CDA2C1B060E0007636C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CD92C1B060E0007636C /* Persistence.swift */; };
+		50F24CDD2C1B060E0007636C /* Projekt_Patryk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CDB2C1B060E0007636C /* Projekt_Patryk.xcdatamodeld */; };
+		50F24CE42C1B06830007636C /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CE32C1B06830007636C /* AddRecipeView.swift */; };
+		50F24CE62C1B06C80007636C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CE52C1B06C80007636C /* ImagePicker.swift */; };
+		50F24CE82C1B06F20007636C /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CE72C1B06F20007636C /* RecipeDetailView.swift */; };
+		50F24CEA2C1B070F0007636C /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CE92C1B070F0007636C /* RecipeListView.swift */; };
+		50F24CFF2C1B0D250007636C /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CFB2C1B0D250007636C /* Recipe+CoreDataClass.swift */; };
+		50F24D002C1B0D250007636C /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CFC2C1B0D250007636C /* Recipe+CoreDataProperties.swift */; };
+		50F24D012C1B0D250007636C /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CFD2C1B0D250007636C /* Category+CoreDataClass.swift */; };
+		50F24D022C1B0D250007636C /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24CFE2C1B0D250007636C /* Category+CoreDataProperties.swift */; };
+		50F24D042C1B0FE80007636C /* EditRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F24D032C1B0FE80007636C /* EditRecipeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50F24CCD2C1B060C0007636C /* Projekt_Patryk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projekt_Patryk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F24CD02C1B060C0007636C /* Projekt_PatrykApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projekt_PatrykApp.swift; sourceTree = "<group>"; };
+		50F24CD22C1B060C0007636C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50F24CD42C1B060E0007636C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F24CD72C1B060E0007636C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50F24CD92C1B060E0007636C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		50F24CDC2C1B060E0007636C /* Projekt_Patryk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Projekt_Patryk.xcdatamodel; sourceTree = "<group>"; };
+		50F24CE32C1B06830007636C /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
+		50F24CE52C1B06C80007636C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		50F24CE72C1B06F20007636C /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		50F24CE92C1B070F0007636C /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		50F24CFB2C1B0D250007636C /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50F24CFC2C1B0D250007636C /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50F24CFD2C1B0D250007636C /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50F24CFE2C1B0D250007636C /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50F24D032C1B0FE80007636C /* EditRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecipeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F24CCA2C1B060C0007636C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F24CC42C1B060C0007636C = {
+			isa = PBXGroup;
+			children = (
+				50F24CFB2C1B0D250007636C /* Recipe+CoreDataClass.swift */,
+				50F24CFC2C1B0D250007636C /* Recipe+CoreDataProperties.swift */,
+				50F24CFD2C1B0D250007636C /* Category+CoreDataClass.swift */,
+				50F24CFE2C1B0D250007636C /* Category+CoreDataProperties.swift */,
+				50F24CCF2C1B060C0007636C /* Projekt_Patryk */,
+				50F24CCE2C1B060C0007636C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F24CCE2C1B060C0007636C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F24CCD2C1B060C0007636C /* Projekt_Patryk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F24CCF2C1B060C0007636C /* Projekt_Patryk */ = {
+			isa = PBXGroup;
+			children = (
+				50F24CD02C1B060C0007636C /* Projekt_PatrykApp.swift */,
+				50F24CD22C1B060C0007636C /* ContentView.swift */,
+				50F24CD42C1B060E0007636C /* Assets.xcassets */,
+				50F24CD92C1B060E0007636C /* Persistence.swift */,
+				50F24CDB2C1B060E0007636C /* Projekt_Patryk.xcdatamodeld */,
+				50F24CD62C1B060E0007636C /* Preview Content */,
+				50F24CE32C1B06830007636C /* AddRecipeView.swift */,
+				50F24CE52C1B06C80007636C /* ImagePicker.swift */,
+				50F24CE72C1B06F20007636C /* RecipeDetailView.swift */,
+				50F24CE92C1B070F0007636C /* RecipeListView.swift */,
+				50F24D032C1B0FE80007636C /* EditRecipeView.swift */,
+			);
+			path = Projekt_Patryk;
+			sourceTree = "<group>";
+		};
+		50F24CD62C1B060E0007636C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50F24CD72C1B060E0007636C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F24CCC2C1B060C0007636C /* Projekt_Patryk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F24CE02C1B060E0007636C /* Build configuration list for PBXNativeTarget "Projekt_Patryk" */;
+			buildPhases = (
+				50F24CC92C1B060C0007636C /* Sources */,
+				50F24CCA2C1B060C0007636C /* Frameworks */,
+				50F24CCB2C1B060C0007636C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Projekt_Patryk;
+			productName = Projekt_Patryk;
+			productReference = 50F24CCD2C1B060C0007636C /* Projekt_Patryk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F24CC52C1B060C0007636C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					50F24CCC2C1B060C0007636C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 50F24CC82C1B060C0007636C /* Build configuration list for PBXProject "Projekt_Patryk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50F24CC42C1B060C0007636C;
+			productRefGroup = 50F24CCE2C1B060C0007636C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F24CCC2C1B060C0007636C /* Projekt_Patryk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F24CCB2C1B060C0007636C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F24CD82C1B060E0007636C /* Preview Assets.xcassets in Resources */,
+				50F24CD52C1B060E0007636C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F24CC92C1B060C0007636C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F24CE82C1B06F20007636C /* RecipeDetailView.swift in Sources */,
+				50F24CDD2C1B060E0007636C /* Projekt_Patryk.xcdatamodeld in Sources */,
+				50F24CDA2C1B060E0007636C /* Persistence.swift in Sources */,
+				50F24CD32C1B060C0007636C /* ContentView.swift in Sources */,
+				50F24CE62C1B06C80007636C /* ImagePicker.swift in Sources */,
+				50F24CD12C1B060C0007636C /* Projekt_PatrykApp.swift in Sources */,
+				50F24CEA2C1B070F0007636C /* RecipeListView.swift in Sources */,
+				50F24CFF2C1B0D250007636C /* Recipe+CoreDataClass.swift in Sources */,
+				50F24D002C1B0D250007636C /* Recipe+CoreDataProperties.swift in Sources */,
+				50F24D012C1B0D250007636C /* Category+CoreDataClass.swift in Sources */,
+				50F24D042C1B0FE80007636C /* EditRecipeView.swift in Sources */,
+				50F24D022C1B0D250007636C /* Category+CoreDataProperties.swift in Sources */,
+				50F24CE42C1B06830007636C /* AddRecipeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50F24CDE2C1B060E0007636C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50F24CDF2C1B060E0007636C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F24CE12C1B060E0007636C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Projekt_Patryk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pollub.Projekt-Patryk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50F24CE22C1B060E0007636C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Projekt_Patryk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pollub.Projekt-Patryk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F24CC82C1B060C0007636C /* Build configuration list for PBXProject "Projekt_Patryk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F24CDE2C1B060E0007636C /* Debug */,
+				50F24CDF2C1B060E0007636C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F24CE02C1B060E0007636C /* Build configuration list for PBXNativeTarget "Projekt_Patryk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F24CE12C1B060E0007636C /* Debug */,
+				50F24CE22C1B060E0007636C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50F24CDB2C1B060E0007636C /* Projekt_Patryk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50F24CDC2C1B060E0007636C /* Projekt_Patryk.xcdatamodel */,
+			);
+			currentVersion = 50F24CDC2C1B060E0007636C /* Projekt_Patryk.xcdatamodel */;
+			path = Projekt_Patryk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50F24CC52C1B060C0007636C /* Project object */;
+}
